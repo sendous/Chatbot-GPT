@@ -4,7 +4,7 @@ import os
 os.environ['OPENAI_API_KEY'] = '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'
 
 #Loading from a directory
-documents = SimpleDirectoryReader('').load_data()
+documents = SimpleDirectoryReader('main.txt').load_data()
 
 #Loading from strings, assuming you saved your data to strings text1, text2, ...
 text_list = ['text1', 'text2', ...]
